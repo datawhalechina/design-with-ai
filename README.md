@@ -64,6 +64,8 @@
   - [使用Gemini生成建筑设计概念](docs/casebook/Architecture_Interior_Design/gemini_architecture_design.md) @张三
   - [AI辅助室内空间规划](docs/casebook/Architecture_Interior_Design/ai_interior_planning.md) @张三
 
+- [Video Production（视频创作与生成）](docs/casebook/Video_Production)
+  - [AI创意视频《赛博哪吒：天机觉醒》制作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
 
 ## 项目贡献者
 
