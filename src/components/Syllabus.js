@@ -53,85 +53,57 @@ const Syllabus = () => {
   // 课程材料数据
   const courseMaterials = [
     {
-      date: "2/23",
-      topic: "AI与设计导论",
+      date: "第1~2天",
+      topic: "AI交互设计（Coze案例）",
       slidesPDF: [
-        { text: "AI设计课程介绍", url: "#" },
-        { text: "生成式AI基础", url: "#" }
-      ],
-      slidesPPT: [
-        { text: "AI设计课程介绍", url: "#" },
-        { text: "生成式AI基础", url: "#" }
+        { text: "AI交互设计", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day1-2/doc_Optimized.pdf" }
       ],
       videos: [
-        { text: "课程规则与学习路径", url: "#" },
-        { text: "第0讲：设计师的AI时代", url: "#" },
-        { text: "第1讲：生成式AI与设计创新", url: "#" }
+        { text: "课程一：AI交互设计-从问题到创意", url: "https://www.bilibili.com/video/BV1rPMbzQE77" },
+        { text: "课程二：AI交互设计-从创意到原型", url: "https://www.bilibili.com/video/BV1nPMbzQEz9" },
+        { text: "课程二：AI交互设计-Coze前端设计", url: "https://www.bilibili.com/video/BV1nPMbzQEzo" }
       ],
-      extraMaterials: [
-        { text: "设计师必知的AI基础知识", url: "#" },
-        { type: "pdf", text: "AI设计工具全景图", url: "#" }
-      ],
-      detailedContent: "本次课程将介绍AI与设计的交叉领域，探讨生成式AI如何改变设计流程和思维方式。学生将了解课程结构、评分标准和项目要求，以及AI设计工具的基本操作与应用场景。"
+      detailedContent: "设计思维全流程（共情→定义→构思→原型），AI特有设计考量（多智能体、对话流、控制权），Coze平台实操（Agent、Workflow、GUI）"
     },
     {
-      date: "3/1",
-      topic: "AI图像生成与设计应用",
+      date: "第3天",
+      topic: "视觉设计基础 & AI绘图原理",
       slidesPDF: [
-        { text: "图像生成模型原理", url: "#" },
-        { text: "设计提示词工程", url: "#" }
-      ],
-      slidesPPT: [
-        { text: "图像生成模型原理", url: "#" },
-        { text: "设计提示词工程", url: "#" }
+        { text: "视觉设计原理", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day3/aboutDesign-1_optimized.pdf" },
+        { text: "AI绘画原理", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day3/aboutAI-1_optimized.pdf" }
       ],
       videos: [
-        { text: "第2讲：Midjourney与Stable Diffusion实战", url: "#" },
-        { text: "第3讲：设计师的提示词策略", url: "#" }
+        { text: "课程三：视觉设计原理", url: "https://www.bilibili.com/video/BV1nPMbzQEZU" },
+        { text: "课程三：人工智能与 AI 绘画原理", url: "https://www.bilibili.com/video/BV1HPMbzQE3J" }
       ],
-      extraMaterials: [
-        { type: "link", text: "视觉设计提示词指南", url: "#" }
-      ],
-      detailedContent: "学习AI图像生成技术的核心原理和应用方法，掌握Midjourney、DALL-E和Stable Diffusion等工具的使用技巧。探索如何通过精确的提示词引导AI创造符合设计需求的视觉内容，以及如何将AI生成的素材整合到设计工作流中。"
+      detailedContent: "视觉设计原理（色彩/形状/字体/版式），AI原理（Embedding、学习过程、Diffusion），Stable Diffusion与Prompt基础"
     },
     {
-      date: "3/8",
-      topic: "UI/UX设计中的AI应用",
+      date: "第4天",
+      topic: "AI可控图像生成 & 海报设计",
       slidesPDF: [
-        { text: "AI驱动的界面设计", url: "#" }
-      ],
-      slidesPPT: [
-        { text: "AI驱动的界面设计", url: "#" }
+        { text: "海报设计与视觉传达原理", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day4/aboutDesign-2_optimized.pdf" },
+        { text: "有个性的图像生成", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day4/aboutAI-2_optimized.pdf" }
       ],
       videos: [
-        { text: "第4讲：AI辅助UI设计工具实践", url: "#" }
+        { text: "课程四：有个性的图像生成", url: "https://www.bilibili.com/video/BV1nPMbzQEU7" },
+        { text: "课程四：海报设计与视觉传达原理", url: "https://www.bilibili.com/video/BV1nPMbzQEzH" }
       ],
-      extraMaterials: [
-        { type: "video", text: "从草图到原型：AI加速设计流程", url: "#" },
-        { type: "pdf", text: "AI与用户体验研究", url: "#" }
-      ],
-      detailedContent: "深入研究AI在UI/UX设计中的应用，包括自动布局生成、组件识别、原型转代码等技术。学习如何利用AI工具提高设计效率，实现快速原型设计和迭代。探讨AI如何帮助设计师更好地理解用户需求和行为模式。"
+      detailedContent: "AI图像可控技术（ControlNet、LoRA、IPAdapter等），AI辅助创意，海报设计原理（修辞、叙事、对比、简洁），视觉传达策略"
     },
     {
-      date: "3/22",
-      topic: "AI与品牌设计创新",
+      date: "第5天",
+      topic: "AI艺术思维 & 绘图新范式/未来",
       slidesPDF: [
-        { text: "AI品牌识别系统", url: "#" },
-        { text: "生成式设计方法论", url: "#" }
-      ],
-      slidesPPT: [
-        { text: "AI品牌识别系统", url: "#" },
-        { text: "生成式设计方法论", url: "#" }
+        { text: "设计、艺术思维与美", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day5/aboutDesign-3_optimized.pdf" },
+        { text: "让 AI 像人类一样作画", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day5/lecture_optimized.pdf" },
+        { text: "图像生成前沿", url: "https://github.com/datawhalechina/design-with-ai/blob/main/docs/2D%20-%20March%202025/day5/aboutAI-3_optimized.pdf" }
       ],
       videos: [
-        { text: "第5讲：AI辅助品牌设计案例分析", url: "#" },
-        { text: "第6讲：设计系统自动化与AI", url: "#" }
+        { text: "课程五：设计、艺术思维与美", url: "https://www.bilibili.com/video/BV1nPMbzQE1W" },
+        { text: "课程五：图像生成前沿，让 AI 像人一样绘画", url: "https://www.bilibili.com/video/BV1rPMbzQE7J" }
       ],
-      extraMaterials: [
-        { type: "video", text: "AI时代的品牌一致性管理", url: "#" },
-        { type: "video", text: "生成式设计的伦理与版权问题", url: "#" }
-      ],
-      detailedContent: "探索AI在品牌设计中的创新应用，包括logo生成、视觉识别系统自动化、多媒体内容生成等。学习如何利用AI工具创建一致且富有创意的品牌体验，同时保持品牌的独特性和识别度。讨论AI设计中的伦理问题和版权挑战。"
+      detailedContent: "艺术思维与创新（历史/蓝海/颠覆式），AI绘画新范式（迭代优化），前沿进展（GPT-4o）、未来趋势（Agent/视频）、人类价值（共情）"
     }
   ];
 
@@ -155,9 +127,7 @@ const Syllabus = () => {
               <th className="date-col">日期</th>
               <th className="topic-col">主题</th>
               <th className="slides-col">幻灯片 (PDF)</th>
-              <th className="slides-col">幻灯片 (PPT)</th>
               <th className="videos-col">视频</th>
-              <th className="extra-col">额外材料</th>
             </tr>
           </thead>
           <tbody>
@@ -181,13 +151,6 @@ const Syllabus = () => {
                       </div>
                     ))}
                   </td>
-                  <td className="slides-cell">
-                    {material.slidesPPT.map((slide, i) => (
-                      <div key={i} className="material-link-wrapper">
-                        <FileLink type="ppt" text={slide.text} url={slide.url} />
-                      </div>
-                    ))}
-                  </td>
                   <td className="videos-cell">
                     {material.videos.map((video, i) => (
                       <div key={i} className="material-link-wrapper">
@@ -195,17 +158,10 @@ const Syllabus = () => {
                       </div>
                     ))}
                   </td>
-                  <td className="extra-cell">
-                    {material.extraMaterials.map((extra, i) => (
-                      <div key={i} className="material-link-wrapper">
-                        <FileLink type={extra.type || "link"} text={extra.text} url={extra.url} />
-                      </div>
-                    ))}
-                  </td>
                 </tr>
                 {expandedRows[index] && (
                   <tr className="detailed-content-row">
-                    <td colSpan="6" className="detailed-content-cell">
+                    <td colSpan="4" className="detailed-content-cell">
                       <div className="detailed-content">
                         <h4>课程详情：</h4>
                         <p>{material.detailedContent}</p>
