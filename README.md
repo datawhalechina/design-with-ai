@@ -69,7 +69,7 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
 
 - [Video Production（视频创作与生成）](docs/casebook/Video_Production)
   - [基于Deepseek和豆包、即梦的视频创作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
-
+  - [脚本 + 分镜 + 配音 + 画面 = 文生视频全流程深度解析](docs/casebook/Video_Production/Text_to_Video_Full_Process_Script_Storyboard_VO_Visuals/Text_to_Video_Full_Process_Script_Storyboard_VO_Visuals.md) @李修平
 ## 项目贡献者
 
 感谢每一位贡献者付出的努力，谢谢你们让这个教程变的更好！
@@ -85,6 +85,7 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
 - [苗锦林](https://jinlinmiao.xyz)（中国美术学院D&A Lab成员）
 - 温鑫 (哈尔滨工业大学经管学院)
 - 郭佳宇（哈尔滨工业大学人文社科学部）
+- 李修平（体验设计师｜AIGC创作者｜清华美院校友）
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/design-with-ai/graphs/contributors">
