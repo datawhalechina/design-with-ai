@@ -55,7 +55,7 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
 
 本项目同时包含丰富多样的 AI+ 设计应用场景实战案例，适合同学们按照自己的需求进行学习。
 
-如果你也想贡献，欢迎参考 [小白也能看懂的 github 贡献指南 @温鑫](docs/casebook/General/GitHub_upload_for_beginners/GitHub_upload_for_beginners.md)
+如果你也想贡献，欢迎参考 [小白也能看懂的 github 贡献指南](docs/casebook/General/GitHub_upload_for_beginners/GitHub_upload_for_beginners.md) @温鑫
 
 - [中国美术学院人工智能艺术设计实验室知识库](https://ywh0rb17miw.feishu.cn/wiki/UqmMwFsf2iMAupkc4KpcSldin3d)
 
@@ -73,6 +73,9 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
   - [即梦像素风图片+视频生成教程](docs/casebook/Video_Production/Pixel%20-%20Style%20Image%20%2B%20Video%20Generation%20by%20JimengTutorial/Pixel%20-%20Style%20Image%20%2B%20Video%20Generation%20by%20JimengTutorial.md) @郭佳宇
   - [脚本 + 分镜 + 配音 + 画面 = 文生视频全流程深度解析](docs/casebook/Video_Production/Text_to_Video_Full_Process_Script_Storyboard_VO_Visuals/Text_to_Video_Full_Process_Script_Storyboard_VO_Visuals.md) @李修平 
   - [播客全流程：如何从0到1打造属于你的电台？](docs/casebook/Video_Production/Podcast_Social_Media_Content/Podcast_Social_Media_Content.md) @李修齐
+
+  - [AI MV 五月天玩偶版《OAOA》视频保姆级创作教程](docs/casebook/Video_Production/AI_MV_Mayday_OAOA_VideoProduction_Tutorial/AI_MV_Mayday_OAOA_VideoProduction_Tutorial.md) @温鑫
+
 ## 项目贡献者
 
 感谢每一位贡献者付出的努力，谢谢你们让这个教程变的更好！
